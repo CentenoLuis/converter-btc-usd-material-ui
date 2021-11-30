@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useState } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import { Container, Typography, Divider } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import customTheme from "./assets/customTheme";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Prices from "./components/Prices";
+import BtcUsdConverter from "./components/BtcUsdConverter";
+import Carousel from "./components/Carousel";
+import BtcNews from "./components/BtcNews";
+import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={customTheme}>
+        <CssBaseline />
+        <Navbar />
+        <Carousel />
+        <Container>
+          <main>
+            <Hero />
+            <Prices />
+            <BtcUsdConverter />
+            {/* <BtcNews /> */}
+          </main>
+        </Container>
+        <Footer />
+      </ThemeProvider>
+    </>
   );
-}
+};
 
 export default App;

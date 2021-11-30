@@ -1,0 +1,22 @@
+export const carouselImages = [
+  {
+    image:
+      "https://images.pexels.com/photos/7767496/pexels-photo-7767496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/5980573/pexels-photo-5980573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/6765371/pexels-photo-6765371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/6765369/pexels-photo-6765369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  },
+];
