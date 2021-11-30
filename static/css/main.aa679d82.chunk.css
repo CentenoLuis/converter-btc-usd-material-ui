@@ -1,0 +1,2 @@
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.slider{height:60vh;margin-bottom:0;padding-bottom:0;display:flex;justify-content:center;align-items:center}.image,.slider{position:relative}.image{width:150vh;height:50vh;border-radius:10px;object-fit:cover}.slide{opacity:0;transition-duration:1s ease}.slide.active{opacity:1;transition-duration:1s;transform:scale(1.08)}
+/*# sourceMappingURL=main.aa679d82.chunk.css.map */
